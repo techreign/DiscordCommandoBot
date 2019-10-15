@@ -2,12 +2,9 @@ const commando = require('discord.js-commando');
 var fs = require('fs');	// from node.js, similar to an import of module 'fs'
 
 const bot = new commando.Client({
-	owner: '104435919116845056'
+	owner: ''
 });
 
-// id: 402756019408601108
-// secret: cXBAUK9gxny5e5PWwpd7XfiUF5yNq085
-// token: NDAyNzU2MDE5NDA4NjAxMTA4.DT9boA.PigfDmqZ1tz9RUvS7IqzRKbRdWA
 
 bot.registry.registerGroup('random', 'Random');
 bot.registry.registerGroup('rps', 'Rps');
@@ -33,4 +30,4 @@ bot.registry.registerDefaults();
 bot.registry.registerCommandsIn(__dirname + "/commands");
 
 // login! (to discord)
-bot.login('NDAyNzU2MDE5NDA4NjAxMTA4.DT9boA.PigfDmqZ1tz9RUvS7IqzRKbRdWA');
+bot.login('');
