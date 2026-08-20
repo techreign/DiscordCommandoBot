@@ -1,0 +1,13 @@
+# node_modules was committed (4,956 files) and is now stripped from history.
+node_modules/
+npm-debug.log*
+
+# Credentials NEVER belong in this repo. A Google API key and the Discord bot
+# token were both committed here in 2019 and stayed world-readable until
+# 2026-08-20. Both are redacted from history now and both must be treated as
+# compromised regardless, because the repo was public the whole time.
+.env
+*.env
+auth.json
+config.json
+token.json
